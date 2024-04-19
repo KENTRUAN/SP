@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\声音/动画">
+      <UniqueIdentifier>{af96110b-62b4-4cb8-80fc-bd010d69c133}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\功能">
+      <UniqueIdentifier>{40e2b52f-b8b2-447a-9ae8-eb42bc84c276}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\主体">
+      <UniqueIdentifier>{d3d82434-ffbd-460b-bebc-3344c8238a30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\敌人">
+      <UniqueIdentifier>{9d488a96-c19a-4ff7-91b7-93c4bc5a8479}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\文本">
+      <UniqueIdentifier>{28be0c91-ac85-4dac-9816-2dc87bb4d1f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\玩家">
+      <UniqueIdentifier>{9c713925-e8de-4bb9-8b0a-d3cd4cfc69f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\状态">
+      <UniqueIdentifier>{2e8bb26f-945a-41ae-a4d4-58d8240f0eea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Animation.cpp">
+      <Filter>源文件\声音/动画</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>源文件\功能</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>源文件\功能</Filter>
+    </ClCompile>
+    <ClCompile Include="FPSCounter.cpp">
+      <Filter>源文件\功能</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>源文件\主体</Filter>
+    </ClCompile>
+    <ClCompile Include="Invader.cpp">
+      <Filter>源文件\敌人</Filter>
+    </ClCompile>
+    <ClCompile Include="InvaderBullet.cpp">
+      <Filter>源文件\敌人</Filter>
+    </ClCompile>
+    <ClCompile Include="InvaderManager.cpp">
+      <Filter>源文件\敌人</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>源文件\主体</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuState.cpp">
+      <Filter>源文件\主体</Filter>
+    </ClCompile>
+    <ClCompile Include="OStringText.cpp">
+      <Filter>源文件\文本</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>源文件\玩家</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerBullet.cpp">
+      <Filter>源文件\玩家</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayingState.cpp">
+      <Filter>源文件\状态</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>源文件\状态</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMachine.cpp">
+      <Filter>源文件\状态</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaySound.cpp">
+      <Filter>源文件\声音/动画</Filter>
+    </ClCompile>
+    <ClCompile Include="Shield.cpp">
+      <Filter>源文件\玩家</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>源文件\声音/动画</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>源文件\文本</Filter>
+    </ClCompile>
+    <ClCompile Include="Textbox.cpp">
+      <Filter>源文件\文本</Filter>
+    </ClCompile>
+    <ClCompile Include="UFO.cpp">
+      <Filter>源文件\敌人</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Animation.h">
+      <Filter>源文件\声音/动画</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>源文件\功能</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>源文件\功能</Filter>
+    </ClInclude>
+    <ClInclude Include="FPSCounter.h">
+      <Filter>源文件\功能</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>源文件\主体</Filter>
+    </ClInclude>
+    <ClInclude Include="Invader.h">
+      <Filter>源文件\敌人</Filter>
+    </ClInclude>
+    <ClInclude Include="InvaderBullet.h">
+      <Filter>源文件\敌人</Filter>
+    </ClInclude>
+    <ClInclude Include="InvaderManager.h">
+      <Filter>源文件\敌人</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuState.h">
+      <Filter>源文件\主体</Filter>
+    </ClInclude>
+    <ClInclude Include="MoreInfo.h">
+      <Filter>源文件\主体</Filter>
+    </ClInclude>
+    <ClInclude Include="OStringText.h">
+      <Filter>源文件\文本</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>源文件\玩家</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBullet.h">
+      <Filter>源文件\玩家</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayingState.h">
+      <Filter>源文件\状态</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>源文件\状态</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine.h">
+      <Filter>源文件\状态</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>源文件\功能</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaySound.h">
+      <Filter>源文件\声音/动画</Filter>
+    </ClInclude>
+    <ClInclude Include="Shield.h">
+      <Filter>源文件\玩家</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>源文件\声音/动画</Filter>
+    </ClInclude>
+    <ClInclude Include="Textbox.h">
+      <Filter>源文件\文本</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>源文件\文本</Filter>
+    </ClInclude>
+    <ClInclude Include="UFO.h">
+      <Filter>源文件\敌人</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
